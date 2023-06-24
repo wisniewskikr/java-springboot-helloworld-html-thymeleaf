@@ -20,14 +20,14 @@ USAGE DOCKER
 > Please **clone/download** project, open **project's main folder** in your favorite **command line tool** and then **proceed with steps below**. 
 
 Usage steps:
-1. In a command line tool build Docker image with `docker build -t java-springboot-helloworld-api-rest-image .`
-1. In a command line tool start Docker container with `docker run -d -p 8080:8080 --name java-springboot-helloworld-api-rest-container java-springboot-helloworld-api-rest-image`
+1. In a command line tool build Docker image with `docker build -t java-springboot-helloworld-html-thymeleaf-image .`
+1. In a command line tool start Docker container with `docker run -d -p 8080:8080 --name java-springboot-helloworld-html-thymeleaf-container java-springboot-helloworld-html-thymeleaf-image`
 1. In a browser visit `http://localhost:8080`
 1. (Optional) Check application logs
-     * In a command line tool display applicaction logs with `docker logs java-springboot-helloworld-api-rest-container`
+     * In a command line tool display applicaction logs with `docker logs java-springboot-helloworld-html-thymeleaf-container`
 1. Clean up environment 
-     * In a command line tool stop and remove Docker container with `docker rm -f java-springboot-helloworld-api-rest-container`
-     * In a command line tool stop and remove Docker image with `docker rmi java-springboot-helloworld-api-rest-image`
+     * In a command line tool stop and remove Docker container with `docker rm -f java-springboot-helloworld-html-thymeleaf-container`
+     * In a command line tool stop and remove Docker image with `docker rmi java-springboot-helloworld-html-thymeleaf-image`
 
 
 USAGE DOCKER COMPOSE
@@ -70,12 +70,12 @@ DESCRIPTION
 -----------
 
 ##### Goal
-The goal of this project is to present how to create an application type **API REST** in **Java** programming language with usage **Spring Boot** framework.
+The goal of this project is to present how to create an application type **HTML Thymeleaf** in **Java** programming language with usage **Spring Boot** framework.
 
 ##### Terminology
 Terminology explanation:
 * **Java**: object-oriented programming language
-* **API REST**: an architectural style for an application program interface (API) that uses HTTP requests to access and use data
+* **HTML Thymeleaf**: framework for creating HTML files
 * **Spring Boot**: framework for Java. It consists of: Spring + Container + Configuration
 * **Maven**: tool for build automation
 * **Git**: tool for distributed version control
@@ -123,5 +123,5 @@ PRECONDITIONS
 ##### Preconditions - Actions
 * Download **Source Code** (using Git or in any other way) 
 * Open any **Command Line** tool (for instance "Windonw PowerShell" on Windows OS) on downloaded **project's main folder**
-* (Optional) Verify **Java Spring Boot Source Code**: `https://github.com/wisniewskikr/java-springboot-helloworld-api-rest`
-* (Optional) Verify **Java Spring Boot Docker Image**: `https://hub.docker.com/repository/docker/wisniewskikr/java-springboot-helloworld-api-rest/general`
+* (Optional) Verify **Java Spring Boot Source Code**: `https://github.com/wisniewskikr/java-springboot-helloworld-html-thymeleaf`
+* (Optional) Verify **Java Spring Boot Docker Image**: `https://hub.docker.com/repository/docker/wisniewskikr/java-springboot-helloworld-html-thymeleaf/general`
